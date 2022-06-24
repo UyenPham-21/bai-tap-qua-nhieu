@@ -1,0 +1,259 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300&family=Potta+One&display=swap');
+h1  {
+/*     font-family: 'Exo 2', sans-serif;*/
+     font-family: 'Potta One', cursive;
+	 
+}
+h2 {
+	font-family: 'Exo 2', sans-serif;
+}
+p {
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 500;
+	box-sizing: content-box;
+	padding: 15px;
+}
+p :hover {
+	color: #E9A2A3;
+}
+
+icon :hover +p {
+	color: #E9A2A3;
+}
+.container {
+	width: 1104px;
+	margin: 0 auto;
+	
+}
+
+.row-1{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+/*	justify-content: center;*/
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+/*	text-align: center;*/
+	
+}
+.row>[class*="col-"]{
+	padding: 12px;
+}
+.section-1 p{
+	
+
+	padding:  24px ;
+	background-color: cadetblue;
+	margin-left: auto;
+	margin-right: auto;
+/*	margin-top: 150px ;*/
+	width: 500px;
+	border:7px  solid antiquewhite;
+	box-sizing: border-box;
+	align-content: center;
+	justify-content: center;
+	
+	
+}
+.section-2 {
+	display: flex;
+	justify-content: space-between;
+	padding: 100px 0;
+}
+
+.section-4 {
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 0;
+
+}
+.box {
+	width: 100%;
+	height: 350px;
+	
+/*	align-items: center;*/
+	
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    
+/*    justify-content: center;*/
+	background-color:  rgba(28,19,20,1.00);
+	opacity: 0.9;
+	box-shadow: 5px 5px 25px #ABABAB;
+}
+
+
+.header {
+	background: rgba(28,19,20,1.00);
+	padding: 32px 0;
+	opacity: 0.9;
+	box-shadow: 5px 5px 25px #ABABAB;
+}
+ h1:hover {
+	color: #E9A2A3;
+}
+h1:hover +p  {
+	color: #E9A2A3;
+}
+
+
+
+.btn a :hover +h1 +p {
+	color:#E9A2A3;
+}
+.nav {
+	text-align: center;
+}
+.nav ul {
+	list-style: none;
+}
+.nav li{
+	margin: 0 16px;
+}
+.nav li a {
+	text-decoration: none;
+	color: white;
+}
+.nav li a:hover{
+	text-decoration: underline;
+	color: crimson;
+}
+
+.logo {
+	color: aliceblue;
+	font-size: 12px;
+}
+
+
+/*header*/
+.banner {
+	background: url(  "../img/wallpaperbetter.com_5120x2880 (5).jpg");
+	padding: 153px 0;
+	text-align: center;
+	background-size: cover;
+/*    height: 100vh;*/
+	background-attachment: fixed;
+	opacity: 0.9;
+}
+.content-banner p {
+	margin-bottom: 40px;
+	margin-top: 16px;
+}
+.btn {
+	color: antiquewhite;
+	background: rgba(219,129,130,1.00);
+	text-decoration: none;
+	padding: 10px 40px;
+	border-radius: 7%;
+	border: 5px solid  antiquewhite;
+
+}
+
+
+.banner a:hover{
+	color: black;
+}
+/*section-1*/
+.box-2 {
+	width: 600px;
+    height: 570px;
+    background-color: peru;
+    margin-top: 16px;
+	background: url( "../img/tumblr_19f2e48e290d605a157cb6af92c67e4d_fd92ab6a_400.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10%;
+	margin-right:70px;
+	box-shadow: 5px 5px 25px #ABABAB;
+	background-position: center; 
+}
+.right {
+	margin-right: 20px;
+	margin-top: 16px;
+	display: flex;
+	justify-content: space-between;
+	width: 490px;
+    height: 266px;
+}
+
+.icon {
+	font-size: 36px;
+	display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+	padding: 12px;
+}
+
+
+
+
+
+.box-4 {
+	width: 200px;
+	height: 150px;
+/*	background-color: gray;*/
+	margin: 20px 0px 50px 20px;
+	border-radius: 50px;
+	overflow: hidden;
+	box-shadow: 5px 5px 25px #ABABAB;
+}
+.feature {
+	height: 150px;
+	overflow: hidden;
+}
+.feature img {
+	width: 140%;
+}
+.content {
+	padding: 24px;
+	border-radius: 50px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  16px 16px 32px #bebebe,
+             -16px -16px 32px #ffffff;
+}
+.content p {
+	margin-top: 20px;
+	margin-bottom: 120px;
+}
+
+
+
+
+.section-5 {
+	padding: 150px 0;
+	background: url(  "../img/wallpaperbetter.com_5120x2880 (5).jpg");
+	text-align: center;
+	background-attachment: fixed;
+	background-size: cover;
+	color: rgba(0,0,0,0.85);
+	overflow: hidden;
+	box-shadow: 5px 5px 25px #ABABAB;
+}
+
+
+
+
+
+
+.footer {
+	height: 50px;
+	width: 100%;
+	opacity: 0.9;
+	box-shadow: 5px 5px 25px #ABABAB;
+	padding: 12px;
+	background: rgba(28,19,20,1.00);
+}
+h3 { 
+/*	font-family: 'Exo 2', sans-serif; */
+	font-family: 'Potta One', cursive;
+	font-size: 20px;
+    line-height: 130%;
+    color: dimgray;
+	text-align: center;
+	
+}
+
